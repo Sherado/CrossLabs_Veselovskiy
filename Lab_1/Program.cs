@@ -97,6 +97,7 @@ namespace Lab_1
             if (strings.Length < 2)
             {
                 Console.WriteLine("Файл сломан...");
+                return;
             }
             str1 = strings[0];
             str2 = strings[1];
