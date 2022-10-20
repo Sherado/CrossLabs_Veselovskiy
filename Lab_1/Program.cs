@@ -49,7 +49,7 @@ namespace Lab_1
             int counter = 1;
             for (int i = 0; i < str1.Length; i++)
             {
-                if (dictionary.TryGetValue(str1[i], out var val) || dictionary.TryGetValue(str2[i], out var val2))
+                if (dictionary.TryGetValue(str1[i], out var val) && dictionary.TryGetValue(str2[i], out var val2))
                 {
                     counter *= Compare(dictionary[str1[i]], dictionary[str2[i]]);
                 }
@@ -89,7 +89,11 @@ namespace Lab_1
             }
 
             var strings = File.ReadAllLines(InputFileName);
-
+            if (strings.Length > 2)
+            {
+                Console.WriteLine("Больше 2-x строк");
+                return;
+            } 
             if (strings.Length < 2)
             {
                 Console.WriteLine("Файл сломан...");
