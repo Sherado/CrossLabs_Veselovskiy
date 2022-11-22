@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31727.386
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab_1", "Lab_1\Lab_1.csproj", "{1587BA25-F4A3-4003-8241-09CD75AA3223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab_1", "Lab_1\Lab_1.csproj", "{1587BA25-F4A3-4003-8241-09CD75AA3223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba_2", "Laba_2\Laba_2.csproj", "{B2F04D48-3778-46B0-AAE7-220A5874973C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laba_2", "Laba_2\Laba_2.csproj", "{B2F04D48-3778-46B0-AAE7-220A5874973C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossLab3", "C:\Users\vshep\Desktop\CrossLab3\CrossLab3\CrossLab3.csproj", "{D1FA52BB-C3AE-4254-9DFD-138DDD223C21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CP-LAB-5", "C:\Users\vshep\Desktop\Crossplatforms-master\CP-LAB-5\CP-LAB-5.csproj", "{7B8FB76F-0F6A-402E-BE18-780B09DAAA89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CP-LAB-5-LIB", "C:\Users\vshep\Desktop\Crossplatforms-master\CP-LAB-5-LIB\CP-LAB-5-LIB.csproj", "{F71FC38A-12E9-48EB-9147-40F909A206DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{B2F04D48-3778-46B0-AAE7-220A5874973C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2F04D48-3778-46B0-AAE7-220A5874973C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2F04D48-3778-46B0-AAE7-220A5874973C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1FA52BB-C3AE-4254-9DFD-138DDD223C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1FA52BB-C3AE-4254-9DFD-138DDD223C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1FA52BB-C3AE-4254-9DFD-138DDD223C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1FA52BB-C3AE-4254-9DFD-138DDD223C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8FB76F-0F6A-402E-BE18-780B09DAAA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8FB76F-0F6A-402E-BE18-780B09DAAA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8FB76F-0F6A-402E-BE18-780B09DAAA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8FB76F-0F6A-402E-BE18-780B09DAAA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71FC38A-12E9-48EB-9147-40F909A206DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71FC38A-12E9-48EB-9147-40F909A206DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71FC38A-12E9-48EB-9147-40F909A206DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71FC38A-12E9-48EB-9147-40F909A206DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
